@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Minecraft Mod Post Generator</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<header>
+Minecraft Mod Post Generator ⚡
+</header>
+
+<div class="container">
+
+<div class="search-box">
+
+<label>Enter Mod Name</label>
+<input id="query" placeholder="Example: Sodium">
+
+<button onclick="generate()">Generate Post</button>
+
+</div>
+
+<div class="section">
+<h3>Post Title</h3>
+<div id="title" class="output"></div>
+<button onclick="copyText('title')">Copy</button>
+</div>
+
+<div class="section">
+<h3>Featured Image</h3>
+<div id="image" class="output"></div>
+<button onclick="copyText('image')">Copy</button>
+</div>
+
+<div class="section">
+<h3>SEO Title</h3>
+<div id="seoTitle" class="output"></div>
+<button onclick="copyText('seoTitle')">Copy</button>
+</div>
+
+<div class="section">
+<h3>Meta Description</h3>
+<div id="metaDesc" class="output"></div>
+<button onclick="copyText('metaDesc')">Copy</button>
+</div>
+
+<div class="section">
+<h3>Keywords</h3>
+<div id="keywords" class="output"></div>
+<button onclick="copyText('keywords')">Copy</button>
+</div>
+
+<div class="section">
+<h3>Generated Blogger HTML</h3>
+<textarea id="code"></textarea>
+<button onclick="copyCode()">Copy HTML</button>
+</div>
+
+<div class="preview">
+
+<h2>Preview</h2>
+
+<div id="preview"></div>
+
+<div class="section">
+<h3>Downloads Graph</h3>
+<canvas id="downloadChart"></canvas>
+</div>
+
+<div class="section">
+<h3>Related Mods</h3>
+<div id="relatedMods" class="related-grid"></div>
+</div>
+
+</div>
+
+<footer>
+Generated using Modrinth API
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
