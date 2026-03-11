@@ -80,3 +80,32 @@ This project is built using:
 ---
 
 # 📁 Project Structure
+
+📦 mc-mod-gen <br>
+│ <br>
+├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="18"/> <b>index.html</b> — Main application interface <br>
+├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="18"/> <b>style.css</b> — UI styles and layout <br>
+├── <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="18"/> <b>script.js</b> — JavaScript logic & API calls <br>
+│ <br>
+├── 🖼️ <b>preview1.jpg</b> — Generator interface preview <br>
+├── 🖼️ <b>preview2.jpg</b> — Generated blog post preview <br>
+├── 🖼️ <b>preview3.jpg</b> — Download graph preview <br>
+├── 🖼️ <b>preview4.jpg</b> — Related mods preview <br>
+│ <br>
+├── 📘 <b>README.md</b> — Project documentation <br>
+└── 📜 <b>LICENSE</b> — MIT License <br>
+
+---
+## 🖼️ Project Preview
+
+### Generator Interface
+![Preview](preview4.jpg)
+
+### Generated Blog Post
+![Preview](preview2.jpg)
+
+### Download Graph
+![Preview](preview1.jpg)
+
+### Related Mods Section
+![Preview](preview3.jpg)
