@@ -50,18 +50,21 @@ Everything is generated automatically from the Modrinth database.
 
 ![Generator UI](https://dummyimage.com/1200x600/0f0f0f/ffc107&text=Minecraft+Mod+Post+Generator)
 
+<img src="https://raw.githubusercontent.com/iodonium/mc-mod-gen/refs/heads/main/preview4.jpg">
 ---
 
 ## Generated Blog Post Preview
 
 ![Preview](https://dummyimage.com/1200x600/111/ff9800&text=Generated+Blogger+Post+Preview)
 
+<img src="https://raw.githubusercontent.com/iodonium/mc-mod-gen/refs/heads/main/preview3.jpg">
 ---
 
 ## Download Graph
 
 ![Graph](https://dummyimage.com/1200x600/0b0b0b/ffc107&text=Download+Statistics+Graph)
 
+<img src="https://raw.githubusercontent.com/iodonium/mc-mod-gen/refs/heads/main/preview1.jpg">
 ---
 
 # ⚙️ Technologies Used
